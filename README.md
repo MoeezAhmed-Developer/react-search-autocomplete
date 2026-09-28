@@ -31,6 +31,7 @@ src/
 │   └── AutoSuggestion.jsx
 │
 ├── css/
+|   |── auto-suggestion.module.css
 │   ├── searchbar.module.css
 │   └── search-input.module.css
 │
@@ -43,19 +44,19 @@ src/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/react-search-autocomplete.git
+git clone https://github.com/MoeezAhmed-Developer/react-search-autocomplete.git
 ```
 
 ### 2. Navigate to the project
 
 ```bash
-cd react-search-autocomplete
+cd frontend
 ```
 
 ### 3. Install dependencies
 
 ```bash
-npm install
+npm install or npm i
 ```
 
 ### 4. Start the development server
@@ -94,7 +95,7 @@ React Router Navigation
 
 ## Author
 
-**Moeez Ahmed**
+**Muhammad Moeez**
 
 Web Developer
 
