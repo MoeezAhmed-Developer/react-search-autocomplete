@@ -1,0 +1,49 @@
+.searchInputDiv {
+  width: 450px;
+}
+
+.searchInputDiv div {
+  position: fixed;
+  top: 150px;
+  width: 450px;
+  box-sizing: border-box;
+  outline: none;
+  color: #444;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  height: 40px;
+  padding: 5px 10px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchInputDiv div i {
+  font-size: 16px;
+  color: #444;
+}
+
+.searchInputDiv div button {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.searchInputDiv div .uil-multiply {
+  cursor: pointer;
+}
+
+.searchInputDiv div input {
+  background: none;
+  border: none;
+  outline: none;
+  width: 85%;
+  font-size: 14px;
+}
+
+.searchInputDiv input::placeholder {
+  color: #444;
+  opacity: 1;
+}
